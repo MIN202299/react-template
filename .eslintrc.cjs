@@ -12,6 +12,7 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 'off',
     'react-hooks/exhaustive-deps': 'off',
     'react/jsx-indent': ['error', 2],
+    'react/jsx-indent-props': ['error', 2],
     'react/jsx-newline': 'error',
     'react/jsx-first-prop-new-line': 'error',
     'react/jsx-max-props-per-line': 'error',
