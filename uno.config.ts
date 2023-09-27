@@ -1,4 +1,4 @@
-import { defineConfig, presetAttributify, presetIcons, presetUno, transformerAttributifyJsx } from 'unocss'
+import { defineConfig, presetAttributify, presetIcons, presetUno, presetWebFonts, transformerAttributifyJsx } from 'unocss'
 
 export default defineConfig({
   presets: [
@@ -8,6 +8,12 @@ export default defineConfig({
       warn: true,
       extraProperties: {
         'vertical-align': 'middle',
+      },
+    }),
+    presetWebFonts({
+      provider: 'none',
+      fonts: {
+        sans: 'AlibabaPuHuiTi-2',
       },
     }),
     presetAttributify(),

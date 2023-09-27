@@ -1,13 +1,11 @@
-// @ts-nocheck
-
 function App() {
   return (
     <>
       <div
+        flex
         w-100vw
         h-100vh
-        bg-gray-800
-        flex>
+        bg-gray-800>
 
         <div ma text-white >
           <h1
@@ -18,7 +16,7 @@ function App() {
           </h1>
 
           <div flex="~ items-center justify-center">
-            <div >test iconify icon</div>
+            <div>hello world</div>
             <div className="i-material-symbols:emoji-objects-rounded" text="amber 2em" />
           </div>
         </div>

@@ -20,7 +20,7 @@ export default defineConfig({
       imports: [
         'react',
       ],
-      dts: 'src/auto-imports.d.ts',
+      dts: 'auto-imports.d.ts',
     }),
     Unocss(),
   ],
